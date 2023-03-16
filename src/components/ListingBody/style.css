@@ -1,0 +1,6 @@
+.dsc-main {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    background-color: var(--dsc-color-bg-secundary);
+    padding: 20px;
+}

@@ -1,0 +1,20 @@
+.dsc-header {
+    background-color: var(--dsc-color-bg-primary);
+    height: 70px;
+}
+
+.dsc-header-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--dsc-color-font-primary);
+    justify-content: space-between;
+}
+
+.dsc-header-container h1{
+    font-size: 20px;
+}
+
+.dsc-header-container p{
+    font-size: 12px;
+}

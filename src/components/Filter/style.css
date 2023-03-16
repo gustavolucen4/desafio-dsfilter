@@ -1,0 +1,40 @@
+.dsc-filter-container {
+    width: 100%;
+    background-color: var(--dsc-color-bg-terciary);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.dsc-form {
+    width: 200px;
+}
+
+.dsc-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dsc-input-container input {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 0 10px;
+    height: 40px;
+    border: 1px solid var(--dsc-color-placeholder);
+    border-radius: 5px;
+    outline: none;
+    color: var(--dsc-color-font-secundary);
+}
+
+
+.dsc-btn-filter {
+    width: 200px;
+    height: 40px;
+    background-color: var(--dsc-color-bg-btn);
+    color: var(--dsc-color-font-primary);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
